@@ -1,0 +1,14 @@
+node_modules
+.npmignore
+*.tgz
+package
+
+.gitattributes
+.gitignore
+
+.editorconfig
+.jscsrc
+.jshintrc
+
+coverage
+spec

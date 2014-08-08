@@ -1,0 +1,27 @@
+{
+  "name": "assert-async",
+  "version": "1.0.0",
+  "description": "Throw an exception if your callback is called synchronously",
+  "main": "assert-async.js",
+  "scripts": {
+    "test": "./node_modules/.bin/istanbul test -x \"**/spec/**\" ./node_modules/.bin/_mocha -- spec"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:omsmith/node-assert-async.git"
+  },
+  "keywords": [
+    "assert",
+    "zalgo"
+  ],
+  "author": "Owen Smith <owen@omsmith.ca>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/omsmith/node-assert-async/issues"
+  },
+  "homepage": "https://github.com/omsmith/node-assert-async",
+  "devDependencies": {
+    "istanbul": "^0.3.0",
+    "mocha": "^1.21.4"
+  }
+}
