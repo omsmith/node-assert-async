@@ -4,7 +4,8 @@
   "description": "Throw an exception if your callback is called synchronously",
   "main": "assert-async.js",
   "scripts": {
-    "test": "./node_modules/.bin/istanbul test -x \"**/spec/**\" ./node_modules/.bin/_mocha -- spec"
+    "test": "./node_modules/.bin/istanbul test -x \"**/spec/**\" ./node_modules/.bin/_mocha -- spec",
+    "report-cov": "cat ./coverage/lcov.info | ./node_modules/.bin/coveralls"
   },
   "repository": {
     "type": "git",
@@ -21,6 +22,7 @@
   },
   "homepage": "https://github.com/omsmith/node-assert-async",
   "devDependencies": {
+    "coveralls": "^2.11.1",
     "istanbul": "^0.3.0",
     "mocha": "^1.21.4"
   }

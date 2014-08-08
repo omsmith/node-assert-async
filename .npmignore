@@ -10,5 +10,6 @@ package
 .jscsrc
 .jshintrc
 
+.travis.yml
 coverage
 spec
